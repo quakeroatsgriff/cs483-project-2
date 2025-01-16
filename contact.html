@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact | Project 2</title>
+    <meta name="description" content="Learn to build stunning websites">
+    <meta name="keywords" content="Full-Stack, Project 2, Pet Service, Contact">
+    <meta name="author" content="Griffen Agnello">
+    <title>Contact Us | Project 2</title>
 </head>
 <body>
     <header>
@@ -27,27 +30,29 @@
                 <p>
                     If you have any questions or would like to book our services, feel free to reach out to us using the contact form below.
                 </p>
-                <form>
-                    <label for="email">Your Email:</label>
+                <form action="#" id="contact-form" >
                     <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <br>
+                    <br>
+                    <label for="email">Your Email:</label>
                     <input type="email" id="email" name="email" required>
+                    <br>
+                    <br>
                     <label for="message">Your Message:</label>
-                    <textarea id="message" name="message" rows="4" required>
-                    </textarea>
+                    <br>
+                    <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+                    <br>
+                    <br>
                     <button type="submit">Submit</button>
                 </form>
             </article>
         </section>
     </main>
-    Your Message: [Textarea field]
-    [Submit button]
     <footer>
         <p>
             Contact us at: <a href="mailto:info@petsitting.com">info@petsitting.com</a>
         </p>
     </footer>
-
-    
-    
 </body>
 </html>
